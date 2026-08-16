@@ -12,6 +12,10 @@ jobs:
   terraform-plan:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: environment/dev
+
     permissions:
       id-token: write
       contents: read
