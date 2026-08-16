@@ -5,10 +5,16 @@ on:
     branches:
       - feature/newrg
 
+permissions:
+  contents: read
+
 jobs:
   terraform-plan:
-
     runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
 
