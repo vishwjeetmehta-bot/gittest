@@ -1,4 +1,4 @@
-resource_group = {
+rgs = {
   rg1 = {
     name     = "azadikebaad"
     location = "central india"
