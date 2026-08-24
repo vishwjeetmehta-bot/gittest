@@ -1,4 +1,4 @@
 module "resource_group" {
-  source = "../../modules"
+  source = "../../modules/azure_resource_group"
   rgs    = var.rgs
 }
