@@ -93,6 +93,12 @@ jobs:
         run: terraform init
 
       # -----------------------------
+      # Terraform Format1
+      # -----------------------------
+      - name: Terraform Formatting
+        run: terraform fmt
+
+      # -----------------------------
       # Terraform Format
       # -----------------------------
       - name: Terraform Format Check

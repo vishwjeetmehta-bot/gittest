@@ -15,11 +15,11 @@ rgs = {
     name     = "vishu_rg4"
     location = "central india"
   }
-   rg5 = {
+  rg5 = {
     name     = "vishu_rg5"
     location = "central india"
   }
-     rg6 = {
+  rg6 = {
     name     = "vishu_rg6"
     location = "central india"
   }
