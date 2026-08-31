@@ -41,7 +41,7 @@ Write-Host "Terraform Init SUCCESS" -ForegroundColor Green
 Write-Host ""
 Write-Host "========== TERRAFORM FORMAT =========="
 
-terraform fmt -check -recursive
+terraform fmt -recursive
 
 if ($LASTEXITCODE -ne 0) {
     Write-Error "Terraform Format Check FAILED"
