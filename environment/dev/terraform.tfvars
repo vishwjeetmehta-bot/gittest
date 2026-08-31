@@ -19,8 +19,4 @@ rgs = {
     name     = "vishu_rg5"
     location = "central india"
   }
-  rg6 =       {
-         name     =     "vishu_rg6"
-    location = "central india"
-  }
 }

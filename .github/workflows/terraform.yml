@@ -92,11 +92,11 @@ jobs:
       - name: Terraform Init
         run: terraform init
 
-      # # -----------------------------
-      # # Terraform Format1
-      # # -----------------------------
-      # - name: Terraform Formatting
-      #   run: terraform fmt
+      # -----------------------------
+      # Terraform Format1
+      # -----------------------------
+      - name: Terraform Formatting
+        run: terraform fmt
 
       # -----------------------------
       # Terraform Format
